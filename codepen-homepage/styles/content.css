@@ -1,0 +1,67 @@
+/* Page Conetnt */
+.page-content {
+    background-image: linear-gradient(to right, #555560, black);
+    color: #ffffff;
+    display: flex;
+    height: 425px;
+    font-weight: 100;
+}
+
+.page-content > .left-content {
+    margin: 20px 50px;
+}
+
+.page-content > .left-content > .text {
+    color: #cccccc;
+}
+
+.page-content > .left-content > .text b {
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.page-content > .left-content > .buttons {
+    display: flex;
+    font-size: 30px;
+}
+
+.page-content > .left-content > .buttons  > .left-button {
+    color: black;
+    font-weight: 900;
+    background-color: mediumseagreen;
+    border-radius: 2px;
+    padding: 10px 15px;
+    transition: 0.5s;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.page-content > .left-content > .buttons  > .left-button:hover {
+    background-color: gold;
+}
+
+.page-content > .left-content > .buttons  > .right-button {
+    color: white;
+    font-weight: 900;
+    background-color: black;
+    border-radius: 2px;
+    padding: 10px 15px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.page-content > .left-content > .buttons  > .right-button:hover {
+    background-color: gold;
+}
+
+.page-content > .right-content {
+    margin-top: 50px;
+}
+
+.page-content > .right-content > .top {
+    font-weight: 900;
+}
+
+.page-content > .right-content > .top b {
+    color: skyblue;
+}

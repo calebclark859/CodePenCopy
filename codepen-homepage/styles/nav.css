@@ -1,0 +1,137 @@
+/*Nav Bar Styles*/
+.nav-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.nav-bar > .left-column > .logo {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+.nav-bar > .left-column > .logo img {
+    width: 150px;
+    height: 100%;
+}
+
+.nav-bar > .center-column {
+    width: 400px;
+}
+
+.nav-bar > .center-column > .top {
+    color: gold;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.nav-bar > .center-column > .bottom > .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar > .center-column > .bottom > .nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-bar > .center-column > .bottom > .nav-links a:hover {
+    color: gold;
+}
+
+.nav-bar > .center-column > .bottom > .nav-links > .nav {
+    font-weight: 900;
+}
+
+.nav-bar > .center-column > .bottom > .nav-links > .dropdown {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+    color: #a0a0a0;
+    font-weight: 900px;
+    transition: 0.5s;
+}
+
+.nav-bar > .center-column > .bottom > .nav-links > .dropdown {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+    color: #a0a0a0;
+    font-weight: 900px;
+    transition: 0.5s;
+}
+
+.nav-bar > .center-column > .bottom > .nav-links > .dropdown:hover {
+    color: mediumseagreen;
+}
+
+.nav-bar > .right-column > .nav-buttons {
+    display: flex;
+}
+
+.nav-bar > .right-column > .nav-buttons {
+    display: flex;
+}
+
+.nav-bar > .right-column > .nav-buttons > .dropdown {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+    border-radius: 2px;
+    font-weight: 900;
+    transition: 0.5s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-bar > .right-column > .nav-buttons > .dropdown:hover {
+    background-color: gold;
+}
+
+.nav-bar > .right-column > .nav-buttons > .dropdown > .drop-arrow {
+    color: mediumseagreen;
+}
+
+.nav-bar > .right-column > .nav-buttons > .search i {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2.5em;
+    color: #777777;
+    transition: 0.5s;
+}
+
+.nav-bar > .right-column > .nav-buttons > .search i:hover {
+    color: gold;
+}
+
+.nav-bar > .right-column > .nav-buttons > .nav {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+    border-radius: 2px;
+    font-weight: 900;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.nav-bar > .right-column > .nav-buttons > .nav:hover {
+    background-color: gold;
+}
+
+.drop-arrow {
+    padding-top: 10px;
+}
